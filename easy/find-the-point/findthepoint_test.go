@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -24,10 +23,6 @@ func TestFindPoint(t *testing.T) {
 		{2, 3, 2, 4, 2, 5},
 		{-2, 3, -4, 4, -6, 5},
 	}
-
-	got := FindPoint(1, 1, 2, 2)
-
-	fmt.Println(got[0])
 
 	for i, table := range tables {
 		total := FindPoint(table.px, table.py, table.qx, table.qy)
