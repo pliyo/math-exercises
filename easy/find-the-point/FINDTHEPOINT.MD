@@ -1,4 +1,4 @@
-# Problem
+# Find the point
 
 Consider two points, `p = (px, py)` and `q = (qx, qy)`. We consider the inversion or point reflection, `r = (rx, ry)`, of point p across point q to be a 180 rotation of point p around q.
 
@@ -7,7 +7,7 @@ Given n sets of points p and q, find r for each pair of points and print two spa
 ## Input Format
 
 The first line contains an integer, n, denoting the number of sets of points.
-Each of the  subsequent lines contains four space-separated integers describing the respective values of px, py, qx, and qy defining points p and q.
+Each of the subsequent lines contains four space-separated integers describing the respective values of px, py, qx, and qy defining points p and q.
 
 ## Constraints
 
@@ -21,6 +21,7 @@ Each of the  subsequent lines contains four space-separated integers describing 
 0 0 1 1
 1 1 2 2
 ```
+
 ## Sample Output
 
 ```
