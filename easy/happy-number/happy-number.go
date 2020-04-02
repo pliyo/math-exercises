@@ -9,7 +9,7 @@ func IsHappyNumber(number int) bool {
 			return true
 		}
 
-		number = sumDigitSquare(number)
+		number = sumOfSquares(number)
 
 		_, exists := uniqueSquares[number]
 		if exists {
@@ -21,7 +21,7 @@ func IsHappyNumber(number int) bool {
 	return false
 }
 
-func sumDigitSquare(number int) int {
+func sumOfSquares(number int) int {
 	var square = 0
 	for number > 0 {
 		var digit = number % 10
